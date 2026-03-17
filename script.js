@@ -12,6 +12,11 @@ function toggleDetails(id) {
     }
 }
 
+function toggleMenu() {
+    const nav = document.querySelector('header nav');
+    nav.classList.toggle('show');
+}
+
 function submitForm() {
     alert("Thank you! Your request has been received. We will contact you soon.");
 }
